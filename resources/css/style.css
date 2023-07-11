@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter/Intel_font.woff2) format('woff2');
+    font-weight: 300, 400, 500, 700;
+    font-display: optional;
+}
+
+/* ---------- Variables ---------- */
+:root {
+    /* Colors */
+    --clr-text-primary: #fff;
+    --clr-text-secondary: #333;
+    --clr-bg-primary: #111d27;
+    --clr-bg-secondary: #213e56;
+    --clr-bg-tertiary: #f3f6f9;
+    --clr-bg-white: #fff;
+    --clr-bg-footer: #233240;
+    --clr-accent-primary: #0066ff;
+    --clr-accent-secondary: #02d1ff;
+
+    /* Fonts */
+    --ff-primary: 'Inter', sans-serif;
+}
+
