@@ -21,6 +21,11 @@
 
     /* Fonts */
     --ff-primary: 'Inter', sans-serif;
+
+    --fs-h1: clamp(2.5rem, 4vw + 1.25rem, 4rem);
+    --fs-h2: clamp(1.875rem, 1.2vw + 1.5rem, 2.5rem);
+    --fs-h3: clamp(1.125rem, 1.2vw + 0.75rem, 1.5rem);
+    --fs-p: clamp(0.75rem, 1.5vw + 0.25rem, 1rem);
 }
 
 
@@ -41,7 +46,6 @@ html:focus-within {
 
 body {
     min-height: 100vh;
-    font-family: var(--ff-primary);
     line-height: 1.5;
     text-rendering: optimizeSpeed;
 }
@@ -91,7 +95,26 @@ a {
 
 /* ---------- General Rules ---------- */
 body {
+    font-family: var(--ff-primary);
     color: var(--clr-text-primary);
+}
+
+h1 {
+    font-size: var(--fs-h1);
+}
+
+h2 {
+    font-size: var(--fs-h2);
+}
+
+h3 {
+    font-size: var(--fs-h3);
+}
+
+p,
+li,
+a {
+    font-size: var(--fs-p);
 }
 
 .txt-secondary {
