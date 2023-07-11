@@ -86,3 +86,25 @@ li {
 a {
     text-decoration: none;
 }
+
+
+/* ---------- General Rules ---------- */
+body {
+    color: var(--clr-text-primary);
+}
+
+.bg-primary {
+    background-color: var(--clr-bg-primary);
+}
+
+.bg-secondary {
+    background-color: var(--clr-bg-secondary);
+}
+
+.bg-white {
+    background-color: var(--clr-bg-white);
+}
+
+.bg-accent1 {
+    background-color: var(--clr-accent-primary);
+}
