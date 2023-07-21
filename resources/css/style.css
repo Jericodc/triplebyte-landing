@@ -144,7 +144,9 @@ a {
 
 /* ---------- Header ---------- */
 header {
-    margin-bottom: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }
 
 nav {
@@ -174,5 +176,5 @@ li.desktop-nav {
 }
 
 #sign-up {
-    padding: .3rem .5rem;
+    padding: .4rem 1rem;
 }
