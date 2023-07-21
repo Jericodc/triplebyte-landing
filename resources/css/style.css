@@ -157,7 +157,7 @@ nav {
 }
 
 .logo {
-    max-width: 9.5rem;
+    max-width: clamp(7.188rem, 7.5vw + 4.5rem, 9.5rem);
 }
 
 .mobile-nav {
@@ -177,4 +177,4 @@ li.desktop-nav {
 
 #sign-up {
     padding: .4rem 1rem;
-}
+} 
